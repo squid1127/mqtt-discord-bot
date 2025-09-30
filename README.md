@@ -4,15 +4,14 @@ No, this is not done yet.
 
 A "modular" discord.py-based MQTT bridge bot, designed to be somewhat feature-complete.
 
+AI-generated README 👇
+
 ## Features
 
 - Modern Discord bot using slash commands (app commands)
-- YAML-based configuration with schema validation
-- Modular structure ready for multiple files
-- Environment-based token management
-- Docker support with Python Alpine image
-- Development initialization script
-- Structured logging with file output
+- YAML-based configuration
+- HA-style MQTT topic structure (inspired by Home Assistant)
+- Made by a guy who doesn't know what he's doing
 
 ## Architecture
 
@@ -121,6 +120,8 @@ mqtt-discord-bot/
    cp .env.example .env
    # Edit .env with your token
    ```
+
+   Alternatively, use your own `.env` file. (There's not that many vars)
 
 2. Build and run with Docker:
 
