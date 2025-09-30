@@ -1,4 +1,6 @@
 # mqtt-discord-bot
+
+No, this is not done yet.
 A modular Discord.py bot with YAML configuration, app commands, and Docker support.
 
 ## Features
