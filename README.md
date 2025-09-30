@@ -31,7 +31,6 @@ mqtt-discord-bot/
 ├── scripts/
 │   └── init.sh              # Development setup script
 ├── main.py                  # Entry point
-├── config.yml               # Bot configuration
 ├── requirements.txt         # Python dependencies
 ├── Dockerfile               # Docker container config
 └── docker-compose.yml       # Docker orchestration
